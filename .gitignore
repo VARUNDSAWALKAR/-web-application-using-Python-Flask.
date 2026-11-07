@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Flask
+instance/
+.webassets-cache
+
+# Secrets (never commit these)
+.env
+*.key
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
